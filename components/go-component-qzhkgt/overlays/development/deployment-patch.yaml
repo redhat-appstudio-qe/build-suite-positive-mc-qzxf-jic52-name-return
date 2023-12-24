@@ -1,0 +1,18 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  creationTimestamp: null
+  name: go-component-qzhkgt
+spec:
+  replicas: 1
+  selector: {}
+  strategy: {}
+  template:
+    metadata:
+      creationTimestamp: null
+    spec:
+      containers:
+      - image: quay.io/redhat-appstudio-qe/build-e2e-qzvp-tenant/build-suite-positive-mc-qzxf/go-component-qzhkgt@sha256:ca83beb0c16bdd2bf3b8f7e6ff31cebc489e1a8de052e04d0bd40a0ca2d271bf
+        name: my-go
+        resources: {}
+status: {}
